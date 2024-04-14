@@ -1,0 +1,11 @@
+"use strict";
+let numbers = [1, 2, 3, 4, 5];
+numbers.push(6);
+numbers.pop();
+numbers[0] = 10;
+console.log(numbers);
+let student = ["Alice", 90];
+let name1 = student[0];
+let grade = student[1];
+console.log(name, grade);
+let point = [10, 20, "A"];
